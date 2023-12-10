@@ -4,7 +4,7 @@ This repository hosts a comprehensive data science project focused on predicting
 
 Methodologies:
 Use mean and standard deviation to understand the general trends and characteristics of the players.
-Apply correlation techniques to explore the relationship between individual player stats and their teams' win rates.
+Apply correlation techniques to explore the relationship between individual player stats.
 Use regression models to analyze how players' performance metrics evolve across their career spans.
 Implement predictive models, like logistic regression, to forecast players' performance in playoff games based on regular season data.
 Employ methods like PCA to identify the most influential variables affecting player performance.
