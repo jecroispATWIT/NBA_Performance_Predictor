@@ -32,16 +32,18 @@ Question 1: How do individual player statistics (such as points per game, assist
 	
 - Comparison of Player Productivity: By comparing these weighted productivity scores across all players, we can objectively assess their relative impact on the game. Players with higher scores are deemed to have a more significant overall influence based on their performance in various statistical categories.
 
-  (            first             last  		weighted_productivity_score
- 240          Shai  Gilgeous-Alexander                   251.350000
- 247       Stephen               Curry                   248.051250
- 157         Kevin              Durant                   246.512000
- 173         Larry                Bird                   242.624444
- 261          Trae               Young                   242.460000
- 207        Nikola               Jokic                   242.380000
- 59           Dale               Ellis                   242.220000
- 119         James              Harden                   241.928889
- 150  Karl-Anthony               Towns                   241.646667
- 164          Kiki          Vandeweghe                   239.880000,
+	 |   Rank   |     First      |         Last          | Weighted Productivity Score |
+	|:--------:|:--------------:|:---------------------:|:---------------------------:|
+	|   1      |      Shai      | Gilgeous-Alexander    |           251.350           |
+	|   2      |    Stephen     |        Curry          |           248.051           |
+	|   3      |     Kevin      |        Durant         |           246.512           |
+	|   4      |     Larry      |         Bird          |           242.624           |
+	|   5      |      Trae      |         Young         |           242.460           |
+	|   6      |     Nikola     |         Jokic         |           242.380           |
+	|   7      |      Dale      |         Ellis         |           242.220           |
+	|   8      |     James      |        Harden         |           241.929           |
+	|   9      | Karl-Anthony   |         Towns         |           241.647           |
+	|   10     |      Kiki      |      Vandeweghe       |           239.880           |
+
 
 
