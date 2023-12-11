@@ -24,7 +24,7 @@ What is the relationship between a player's experience (number of seasons played
 Can machine learning models using player stats from the regular season accurately predict playoff performance and outcomes?
 
 # Results: 
-Question 1: How do individual player statistics (such as points per game, assists, and rebounds) compare to other players?
+**Question 1**: How do individual player statistics (such as points per game, assists, and rebounds) compare to other players?
 - I calculated the weighted player productivity score for each player based on a combination of key individual player statistics, and this score provides a comprehensive  measure of their overall impact on the game. Here's the evidence and analysis based on this data:
 	
 - Weighted Player Productivity Score: We assigned weights to various statistical categories, with points per game (pts_per_game) having the highest weight (0.4) and other categories receiving weights accordingly. This allowed us to calculate a single score that represents the overall productivity of each player.
@@ -44,7 +44,7 @@ Question 1: How do individual player statistics (such as points per game, assist
 	|   8      |     James      |        Harden         |           241.929           |
 	|   9      | Karl-Anthony   |         Towns         |           241.647           |
 	|   10     |      Kiki      |      Vandeweghe       |           239.880           |
-- "**LeBron James:**" While LeBron James may not have the highest weighted productivity score in our analysis, it's important to consider additional factors. LeBron's versatility, leadership, longevity, and team success contribute to his status as an all-time great player. He consistently ranks among the top players in terms of productivity and has made a significant impact on his teams, as evidenced by numerous playoff appearances.
+- **LeBron James:** While LeBron James may not have the highest weighted productivity score in our analysis, it's important to consider additional factors. LeBron's versatility, leadership, longevity, and team success contribute to his status as an all-time great player. He consistently ranks among the top players in terms of productivity and has made a significant impact on his teams, as evidenced by numerous playoff appearances.
 	|   First   |   Last   | Weighted Productivity Score | Team Points Per Game | Playoff Appearances | Seasons |
 	|:---------:|:--------:|:---------------------------:|:--------------------:|:-------------------:|:-------:|
 	|  LeBron   |  James   |           231.405           |         102.7        |         13          |    19   |
