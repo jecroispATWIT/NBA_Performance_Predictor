@@ -3,9 +3,9 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load the datasets
-all_seasons_df = pd.read_csv(r'all_seasons.csv')
-team_totals_df = pd.read_csv(r'Team Totals.csv')
-team_stats_per_game_df = pd.read_csv(r'Team Stats Per Game.csv')
+all_seasons_df = pd.read_csv(r'C:\Users\jecroisp\Documents\NBA_Performance_Predictor\Data\all_seasons.csv')
+team_totals_df = pd.read_csv(r'C:\Users\jecroisp\Documents\NBA_Performance_Predictor\Data\Team Totals.csv')
+team_stats_per_game_df = pd.read_csv(r'C:\Users\jecroisp\Documents\NBA_Performance_Predictor\Data\Team Stats Per Game.csv')
 
 
 
