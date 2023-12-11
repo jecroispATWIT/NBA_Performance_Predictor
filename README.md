@@ -28,7 +28,7 @@ Question 1: How do individual player statistics (such as points per game, assist
   I calculated the weighted player productivity score for each player based on a combination of key individual player statistics, and this score provides a comprehensive  measure of their overall impact on the game. Here's the evidence and analysis based on this data:
 	
 		Weighted Player Productivity Score: We assigned weights to various statistical categories, with points per game (pts_per_game) having the highest weight (0.4) and other categories receiving weights accordingly. This allowed us to calculate a single score that represents the overall productivity of each player.
-		![image](https://github.com/jecroispATWIT/NBA_Performance_Predictor/assets/90739973/d765b848-e496-467e-8d74-b3195b8b4d2e)
+		https://github.com/jecroispATWIT/NBA_Performance_Predictor/assets/90739973/d765b848-e496-467e-8d74-b3195b8b4d2e
 	
 		Comparison of Player Productivity: By comparing these weighted productivity scores across all players, we can objectively assess their relative impact on the game. Players with higher scores are deemed to have a more significant overall influence based on their performance in various statistical categories.
 					#          first 							last  					weighted_productivity_score
