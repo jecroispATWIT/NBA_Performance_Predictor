@@ -72,8 +72,15 @@ To offer data-driven insights and predictive models that help understand and for
 
 - **Lebron James**: In analyzing the graph of [LeBron James's performance metrics over 20 seasons](Images/Q2AGraph.png), I can argue that it underscores his exceptional longevity and skill in the NBA. The data points don't show a traditional decline but instead reveal a remarkable consistency at a high level, punctuated by peaks that suggest seasons of particularly outstanding performance. This pattern defies the typical expectation that a player's performance diminishes with age and experience, illustrating LeBron's sustained excellence, adaptability, and resilience. Compared to his peers, such a trend would likely place him at the pinnacle, highlighting his status as an all-time great. For me, this graph not only speaks to LeBron's talent but also implies his significant impact on team success over two decades, reinforcing the notion that elite players like him can maintain peak performance levels well beyond the norm.
 
+**Question 3**: Can machine learning models using player stats from the regular season accurately predict playoff performance and outcomes? 
 
+- The [correlation heatmap provides](Images/heatmap.png) insight into the relationship between regular season performance metrics and playoff performance for NBA players.
 
+- High Correlation with Regular Season Stats: The heatmap shows a high correlation between regular season points (pts), assists (ast), and rebounds (reb) amongst themselves, which is expected as these are common performance indicators.
+
+- Low Correlation with Playoff Stats: The heatmap indicates a low correlation between regular season statistics and the dummy playoff statistics (pts_playoffs, ast_playoffs, reb_playoffs). This suggests that regular season performance does not strongly predict playoff performance according to this dataset.
+
+- Implications: The low correlations with playoff stats could imply that the playoff performance of players is influenced by many factors not captured by regular season statistics alone. This could include changes in opponent strength, pressure of playoff games, player health, and team dynamics during the playoffs.
 
 
 
