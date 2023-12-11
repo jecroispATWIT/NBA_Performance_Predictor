@@ -19,18 +19,18 @@ Data from Kaggle Dataset. [https://www.kaggle.com/datasets/justinas/nba-players-
 To offer data-driven insights and predictive models that help understand and forecast NBA player performance, enhancing strategic decisions in team management and player assessment.
 
 # Questions:
-How do individual player statistics (such as points per game, assists, and rebounds) compare to other players?
-What is the relationship between a player's experience (number of seasons played) and performance metrics over time?
-Can machine learning models using player stats from the regular season accurately predict playoff performance and outcomes?
+1. How do individual player statistics (such as points per game, assists, and rebounds) compare to other players?
+2. What is the relationship between a player's experience (number of seasons played) and performance metrics over time?
+3. Can machine learning models using player stats from the regular season accurately predict playoff performance and outcomes?
 
 # Results: 
 **Question 1**: How do individual player statistics (such as points per game, assists, and rebounds) compare to other players?
 - I calculated the weighted player productivity score for each player based on a combination of key individual player statistics, and this score provides a comprehensive  measure of their overall impact on the game. Here's the evidence and analysis based on this data:
 	
-- Weighted Player Productivity Score: We assigned weights to various statistical categories, with points per game (pts_per_game) having the highest weight (0.4) and other categories receiving weights accordingly. This allowed us to calculate a single score that represents the overall productivity of each player.
+- Weighted Player Productivity Score: I assigned weights to various statistical categories, with points per game (pts_per_game) having the highest weight (0.4) and other categories receiving weights accordingly. This allowed us to calculate a single score that represents the overall productivity of each player.
 		[Corrolation Matrix](Images/289400742-d765b848-e496-467e-8d74-b3195b8b4d2e.png)
 	
-- Comparison of Player Productivity: By comparing these weighted productivity scores across all players, we can objectively assess their relative impact on the game. Players with higher scores are deemed to have a more significant overall influence based on their performance in various statistical categories.
+- Comparison of Player Productivity: By comparing these weighted productivity scores across all players, I can objectively assess their relative impact on the game. Players with higher scores are deemed to have a more significant overall influence based on their performance in various statistical categories.
 
 	 |   Rank   |     First      |         Last          | Weighted Productivity Score |
 	|:--------:|:--------------:|:---------------------:|:---------------------------:|
@@ -51,11 +51,31 @@ Can machine learning models using player stats from the regular season accuratel
 
 **Question 2**: What is the relationship between a player's experience (number of seasons played) and performance metrics over time?
 - Based on the scatter plot I generated from the NBA dataset, here's my understanding of the relationship between a player's experience (number of seasons played) and their performance metrics over time:
-
+	[Player Experience vs Performance Over Time](Images/outputQ2Graph.png)
 - Data Interpretation: I processed the data to calculate a composite performance metric for each player, considering key stats like points, assists, rebounds, and usage percentages. I then related this performance metric to the number of seasons played by each player.
 - Understanding the Scatter Plot: In the scatter plot I created, each point represents the average performance metric for players with a specific number of seasons played. By examining the distribution of these points, I can infer trends about how performance changes with experience.
 - Analyzing Trends: If I see an upward trend in the plot (points rising with more seasons played), it suggests that, on average, players improve their performance with experience. Conversely, a downward trend would indicate a potential decline in performance as players accumulate more seasons, possibly due to factors like age or injuries.
 - Drawing Conclusions: From my analysis, it seems that there isn't a straightforward, one-size-fits-all answer to how experience affects performance. While experience can lead to improved performance for some players, others might peak early or maintain a consistent level throughout their careers.
+- **More**: This model is also able to generate the most improved players of all time.
+ 	The following table showcases the top NBA players who have demonstrated the most significant improvement in their performance metrics over time. The improvements are calculated based on the weighted sum of points, assists, and rebounds.
+
+	| Player Name           | Points Increase | Assists Increase | Rebounds Increase | Total Improvement |
+	|-----------------------|-----------------|------------------|-------------------|-------------------|
+	| Giannis Antetokounmpo | 20.75           | 3.50             | 6.15              | 30.40             |
+	| Pascal Siakam         | 17.75           | 4.40             | 4.20              | 26.35             |
+	| Julius Randle         | 15.95           | 3.70             | 4.85              | 24.50             |
+	| Jimmy Butler          | 16.55           | 4.55             | 3.25              | 24.35             |
+	| Dejounte Murray       | 15.05           | 5.55             | 3.40              | 24.00             |
+
+	This table illustrates not only the individual category improvements but also the total improvement across all three categories.
 - Overall, my analysis of the scatter plot suggests that the relationship between experience and performance in the NBA is complex and influenced by a multitude of factors, making it a fascinating aspect of sports analytics to explore.
 
+- **Lebron James**: In analyzing the graph of [LeBron James's performance metrics over 20 seasons](Images/Q2AGraph.png), I can argue that it underscores his exceptional longevity and skill in the NBA. The data points don't show a traditional decline but instead reveal a remarkable consistency at a high level, punctuated by peaks that suggest seasons of particularly outstanding performance. This pattern defies the typical expectation that a player's performance diminishes with age and experience, illustrating LeBron's sustained excellence, adaptability, and resilience. Compared to his peers, such a trend would likely place him at the pinnacle, highlighting his status as an all-time great. For me, this graph not only speaks to LeBron's talent but also implies his significant impact on team success over two decades, reinforcing the notion that elite players like him can maintain peak performance levels well beyond the norm.
+
+
+
+
+
+
+  
 
