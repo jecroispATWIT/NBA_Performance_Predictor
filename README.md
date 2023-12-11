@@ -31,6 +31,7 @@ Question 1: How do individual player statistics (such as points per game, assist
 		[Corrolation Matrix](Images/289400742-d765b848-e496-467e-8d74-b3195b8b4d2e.png)
 	
 - Comparison of Player Productivity: By comparing these weighted productivity scores across all players, we can objectively assess their relative impact on the game. Players with higher scores are deemed to have a more significant overall influence based on their performance in various statistical categories.
+
        number          first 		last  		weighted_productivity_score
 	240          Shai   Gilgeous-Alexander                   251.350000
 	247       Stephen               Curry                   248.051250
