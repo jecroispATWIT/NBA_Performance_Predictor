@@ -32,16 +32,16 @@ Question 1: How do individual player statistics (such as points per game, assist
 	
 - Comparison of Player Productivity: By comparing these weighted productivity scores across all players, we can objectively assess their relative impact on the game. Players with higher scores are deemed to have a more significant overall influence based on their performance in various statistical categories.
 
-       number          first 		last  		weighted_productivity_score
-	240          Shai   Gilgeous-Alexander                   251.350000
-	247       Stephen               Curry                   248.051250
-	157         Kevin              Durant                   246.512000
-	173         Larry                Bird                   242.624444
-	261          Trae               Young                   242.460000
-	207        Nikola               Jokic                   242.380000
-	59           Dale               Ellis                   242.220000
-	119         James              Harden                   241.928889
-	150  Karl-Anthony               Towns                   241.646667
-	164          Kiki          Vandeweghe                   239.88000
-		
+  (            first             last  		weighted_productivity_score
+ 240          Shai  Gilgeous-Alexander                   251.350000
+ 247       Stephen               Curry                   248.051250
+ 157         Kevin              Durant                   246.512000
+ 173         Larry                Bird                   242.624444
+ 261          Trae               Young                   242.460000
+ 207        Nikola               Jokic                   242.380000
+ 59           Dale               Ellis                   242.220000
+ 119         James              Harden                   241.928889
+ 150  Karl-Anthony               Towns                   241.646667
+ 164          Kiki          Vandeweghe                   239.880000,
+
 
