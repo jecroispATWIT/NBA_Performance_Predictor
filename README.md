@@ -51,7 +51,7 @@ Can machine learning models using player stats from the regular season accuratel
 
 **Question 2**: What is the relationship between a player's experience (number of seasons played) and performance metrics over time?
 - Based on the scatter plot I generated from the NBA dataset, here's my understanding of the relationship between a player's experience (number of seasons played) and their performance metrics over time:
-
+	[Player Experience vs Performance Over Time](Images/outputQ2Graph.png)
 - Data Interpretation: I processed the data to calculate a composite performance metric for each player, considering key stats like points, assists, rebounds, and usage percentages. I then related this performance metric to the number of seasons played by each player.
 - Understanding the Scatter Plot: In the scatter plot I created, each point represents the average performance metric for players with a specific number of seasons played. By examining the distribution of these points, I can infer trends about how performance changes with experience.
 - Analyzing Trends: If I see an upward trend in the plot (points rising with more seasons played), it suggests that, on average, players improve their performance with experience. Conversely, a downward trend would indicate a potential decline in performance as players accumulate more seasons, possibly due to factors like age or injuries.
