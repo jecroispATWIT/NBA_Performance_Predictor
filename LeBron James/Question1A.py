@@ -1,6 +1,5 @@
 # We will use the merged dataset 'merged_data' which contains both individual player productivity scores
 # and team performance metrics.
-# Ensure you have already loaded the player productivity data and the team performance data.
 import pandas as pd
 
 team_stats_data = pd.read_csv(r"C:\Users\jecroisp\Documents\NBA_Performance_Predictor\Data\Team Stats Per Game.csv")
@@ -31,14 +30,14 @@ data['weighted_productivity_score'] = (
     data['fg3_pct'] * 100 * weights['fg3_pct']
 )
 
-# First, ensure player names are included in the player productivity data.
+# player names are included in the player productivity data.
 player_productivity_with_names = data.groupby(['team', 'year', 'first', 'last'])['weighted_productivity_score'].mean().reset_index()
 
 # Prepare the team performance data to include season and team abbreviation.
 team_performance_data = team_stats_data[['season', 'abbreviation', 'playoffs', 'pts_per_game']]
 
 # Merge player productivity with team performance data.
-# Make sure to merge on both 'team'/'abbreviation' and 'year'/'season' columns.
+# merge on both 'team'/'abbreviation' and 'year'/'season' columns.
 merged_data= pd.merge(
     player_productivity_with_names, 
     team_performance_data, 
@@ -50,10 +49,10 @@ merged_data= pd.merge(
 # The 'merged_data_with_names' DataFrame now contains both individual player productivity scores
 # and team performance metrics, with player names included.
 
-# First, let's filter for the players on teams that made it to the playoffs as a proxy for team success.
+# filter for the players on teams that made it to the playoffs as a proxy for team success.
 players_on_playoff_teams = merged_data[merged_data['playoffs'] == True]
 
-# Now, let's find the top players based on their weighted productivity score who were on playoff teams.
+#find the top players based on their weighted productivity score who were on playoff teams.
 top_players_on_playoff_teams = players_on_playoff_teams.sort_values(
     by='weighted_productivity_score', 
     ascending=False
@@ -72,7 +71,7 @@ lebron_stats = merged_data[
     (merged_data['last'] == 'James')
 ].sort_values(by='season', ascending=False)
 
-# Now let's compile the relevant statistics for LeBron James over the seasons.
+# relevant statistics for LeBron James over the seasons.
 lebron_career_stats = lebron_stats.groupby(['first', 'last']).agg({
     'weighted_productivity_score': 'mean',  # Average productivity score
     'pts_per_game': 'mean',                 # Average team points per game
