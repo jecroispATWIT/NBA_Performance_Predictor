@@ -44,7 +44,7 @@ Question 1: How do individual player statistics (such as points per game, assist
 	|   8      |     James      |        Harden         |           241.929           |
 	|   9      | Karl-Anthony   |         Towns         |           241.647           |
 	|   10     |      Kiki      |      Vandeweghe       |           239.880           |
-- LeBron James: While LeBron James may not have the highest weighted productivity score in our analysis, it's important to consider additional factors. LeBron's versatility, leadership, longevity, and team success contribute to his status as an all-time great player. He consistently ranks among the top players in terms of productivity and has made a significant impact on his teams, as evidenced by numerous playoff appearances.
+- "**LeBron James:**" While LeBron James may not have the highest weighted productivity score in our analysis, it's important to consider additional factors. LeBron's versatility, leadership, longevity, and team success contribute to his status as an all-time great player. He consistently ranks among the top players in terms of productivity and has made a significant impact on his teams, as evidenced by numerous playoff appearances.
 	|   First   |   Last   | Weighted Productivity Score | Team Points Per Game | Playoff Appearances | Seasons |
 	|:---------:|:--------:|:---------------------------:|:--------------------:|:-------------------:|:-------:|
 	|  LeBron   |  James   |           231.405           |         102.7        |         13          |    19   |
