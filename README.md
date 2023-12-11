@@ -19,9 +19,9 @@ Data from Kaggle Dataset. [https://www.kaggle.com/datasets/justinas/nba-players-
 To offer data-driven insights and predictive models that help understand and forecast NBA player performance, enhancing strategic decisions in team management and player assessment.
 
 # Questions:
-How do individual player statistics (such as points per game, assists, and rebounds) compare to other players?
-What is the relationship between a player's experience (number of seasons played) and performance metrics over time?
-Can machine learning models using player stats from the regular season accurately predict playoff performance and outcomes?
+1. How do individual player statistics (such as points per game, assists, and rebounds) compare to other players?
+2. What is the relationship between a player's experience (number of seasons played) and performance metrics over time?
+3. Can machine learning models using player stats from the regular season accurately predict playoff performance and outcomes?
 
 # Results: 
 **Question 1**: How do individual player statistics (such as points per game, assists, and rebounds) compare to other players?
