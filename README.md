@@ -27,10 +27,10 @@ Can machine learning models using player stats from the regular season accuratel
 **Question 1**: How do individual player statistics (such as points per game, assists, and rebounds) compare to other players?
 - I calculated the weighted player productivity score for each player based on a combination of key individual player statistics, and this score provides a comprehensive  measure of their overall impact on the game. Here's the evidence and analysis based on this data:
 	
-- Weighted Player Productivity Score: We assigned weights to various statistical categories, with points per game (pts_per_game) having the highest weight (0.4) and other categories receiving weights accordingly. This allowed us to calculate a single score that represents the overall productivity of each player.
+- Weighted Player Productivity Score: I assigned weights to various statistical categories, with points per game (pts_per_game) having the highest weight (0.4) and other categories receiving weights accordingly. This allowed us to calculate a single score that represents the overall productivity of each player.
 		[Corrolation Matrix](Images/289400742-d765b848-e496-467e-8d74-b3195b8b4d2e.png)
 	
-- Comparison of Player Productivity: By comparing these weighted productivity scores across all players, we can objectively assess their relative impact on the game. Players with higher scores are deemed to have a more significant overall influence based on their performance in various statistical categories.
+- Comparison of Player Productivity: By comparing these weighted productivity scores across all players, I can objectively assess their relative impact on the game. Players with higher scores are deemed to have a more significant overall influence based on their performance in various statistical categories.
 
 	 |   Rank   |     First      |         Last          | Weighted Productivity Score |
 	|:--------:|:--------------:|:---------------------:|:---------------------------:|
@@ -56,6 +56,18 @@ Can machine learning models using player stats from the regular season accuratel
 - Understanding the Scatter Plot: In the scatter plot I created, each point represents the average performance metric for players with a specific number of seasons played. By examining the distribution of these points, I can infer trends about how performance changes with experience.
 - Analyzing Trends: If I see an upward trend in the plot (points rising with more seasons played), it suggests that, on average, players improve their performance with experience. Conversely, a downward trend would indicate a potential decline in performance as players accumulate more seasons, possibly due to factors like age or injuries.
 - Drawing Conclusions: From my analysis, it seems that there isn't a straightforward, one-size-fits-all answer to how experience affects performance. While experience can lead to improved performance for some players, others might peak early or maintain a consistent level throughout their careers.
+- **More**: This model is also able to generate the most improved players of all time.
+ 	The following table showcases the top NBA players who have demonstrated the most significant improvement in their performance metrics over time. The improvements are calculated based on the weighted sum of points, assists, and rebounds.
+
+	| Player Name           | Points Increase | Assists Increase | Rebounds Increase | Total Improvement |
+	|-----------------------|-----------------|------------------|-------------------|-------------------|
+	| Giannis Antetokounmpo | 20.75           | 3.50             | 6.15              | 30.40             |
+	| Pascal Siakam         | 17.75           | 4.40             | 4.20              | 26.35             |
+	| Julius Randle         | 15.95           | 3.70             | 4.85              | 24.50             |
+	| Jimmy Butler          | 16.55           | 4.55             | 3.25              | 24.35             |
+	| Dejounte Murray       | 15.05           | 5.55             | 3.40              | 24.00             |
+
+This table illustrates not only the individual category improvements but also the total improvement across all three categories.
 - Overall, my analysis of the scatter plot suggests that the relationship between experience and performance in the NBA is complex and influenced by a multitude of factors, making it a fascinating aspect of sports analytics to explore.
 
 
